@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+array(
+  '#type' => 'markup',
+  '#markup' => ${1:sprintf('<div style="border:1px solid #333;background-color:#ddd;padding:4px;">%s</div>', ${2:'markup'})}, 
+);
+]]></content>
+  <tabTrigger>fapi.markup.debug</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

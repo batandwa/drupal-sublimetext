@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+array(
+  '#type' => 'submit',
+  '#sumit' => '${1:callback}', 
+  '#value' => t('${2:Submit form}'), 
+);
+]]></content>
+  <tabTrigger>fapi.submit</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
